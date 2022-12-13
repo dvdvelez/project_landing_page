@@ -65,7 +65,6 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .button_1 {
-    
     background-color: rgb(10, 120, 255);
     margin-top: 10px;
     /*margin-bottom: 0px;
@@ -78,7 +77,6 @@ a:link, a:visited, a:hover, a:active {
     border-radius: 8px; /*This is to round off the edges*/
     /*box-shadow: 0, 0;*/
     border: none;
-    
 }
 
 .awesome_right {
