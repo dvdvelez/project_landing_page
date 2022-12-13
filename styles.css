@@ -1,28 +1,92 @@
 body {
-    display: flex;
-    flex-direction: column;
+    width: 1366px;
+    margin: auto; /*This is to center all the body content in the center of the screen no matter what size the window is.*/
+    background-color: black;
 }
+
+
+/*SECTION 1 BEGINS HERE--------------------------------------------------------------------------------------------------*/
 
 .sect_1 {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+    color: white;
 }
 
 header {
     font-size: 24px;
-    display:flex;
-    margin: 0;
-    padding: 0px 80px;
+    font-weight: 950;
+    display: flex;
     justify-content: space-between;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 120px;
+    white-space: nowrap;
 }
 
 nav {
     font-size: 18px;
+    font-weight: 100;
 }
 
-/*.awesome {
+a:link, a:visited, a:hover, a:active {
+    color: rgba(255, 255, 255, 0.800);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.awesome_left {
+    display: flex;
+    flex-direction: column;
+    height: 300;
+}
+
+.awesome {
+    display: flex;
+    gap: 30px;
+}
+
+.web_awe {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 950;
+}
+
+.awe_text {
+    margin: 0;
+    font-size: 18px;
+    vertical-align: text-top;
+    color: rgba(255, 255, 255, 0.800);
+}
+
+.button_1 {
+    
+    background-color: rgb(10, 120, 255);
+    margin-top: 10px;
+    /*margin-bottom: 0px;
+    padding-bottom: 0px;*/
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    border-radius: 8px; /*This is to round off the edges*/
+    /*box-shadow: 0, 0;*/
+    border: none;
+    
+}
+
+.awesome_right {
     display: flex;
 }
+
+
+/*SECTION 2 BEGINS HERE--------------------------------------------------------------------------------------------------*/
 
 
 
