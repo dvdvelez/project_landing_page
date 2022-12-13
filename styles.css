@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     margin: 0;
+    height: 510px;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 120px;
