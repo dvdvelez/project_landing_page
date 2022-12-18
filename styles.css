@@ -68,8 +68,6 @@ a:link, a:visited, a:hover, a:active {
 .button_1 {
     background-color: rgb(10, 120, 255);
     margin-top: 10px;
-    /*margin-bottom: 0px;
-    padding-bottom: 0px;*/
     height: 40px;
     width: 130px;
     font-size: 18px;
@@ -99,4 +97,54 @@ a:link, a:visited, a:hover, a:active {
     color: black;
 }
 
+.random_text {
+    margin: 60px;
+    font-size: 36px;
+    font-weight: 950;
+    text-align: center;
+}
 
+.random_boxes {
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+    justify-content: space-between;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 160px;
+    gap: 10px;
+}
+
+.box1_pic, .box2_pic, .box3_pic, .box4_pic {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: solid; /*This is to make the border color ONE-TONE instead of the default two-toned color scheme*/
+    border-radius: 12px;
+    border-width: 5px;
+    border-color: rgb(10, 120, 255);
+}
+
+.box1_text, .box2_text, .box3_text, .box4_text {
+    text-align: center;
+}
+
+
+/*SECTION 3 BEGINS HERE--------------------------------------------------------------------------------------------------*/
+
+.sect_3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    margin: 0;
+    height: 510px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+    color: black;
+}
