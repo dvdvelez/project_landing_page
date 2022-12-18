@@ -93,7 +93,8 @@ a:link, a:visited, a:hover, a:active {
     height: 510px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: black;
 }
 
@@ -101,6 +102,7 @@ a:link, a:visited, a:hover, a:active {
     margin: 60px;
     font-size: 36px;
     font-weight: 950;
+    color: #1F2937;
     text-align: center;
 }
 
@@ -132,6 +134,7 @@ a:link, a:visited, a:hover, a:active {
 
 .box1_text, .box2_text, .box3_text, .box4_text {
     text-align: center;
+    color: rgb(70, 70, 70);
 }
 
 
@@ -140,11 +143,32 @@ a:link, a:visited, a:hover, a:active {
 .sect_3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(235, 235, 235);
     margin: 0;
     height: 510px;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     color: black;
+}
+
+.quote {
+    padding-left: 115px;
+    padding-right: 115px;
+    
+}
+
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    text-align: inherit;
+    color: rgb(70, 70, 70);
+}
+
+.thor_text {
+    font-size: 24px;
+    font-weight: 950;
+    text-align: end;
 }
