@@ -172,3 +172,70 @@ a:link, a:visited, a:hover, a:active {
     font-weight: 950;
     text-align: end;
 }
+
+
+/*SECTION 4 BEGINS HERE--------------------------------------------------------------------------------------------------*/
+
+.sect_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+    height: 360px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.blue_box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 120, 255);
+    border-radius: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text_big {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.text_small {
+    font-size: 18px;
+}
+
+.button_2 {
+    background-color: rgb(10, 120, 255);
+    margin-top: 10px;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+/*SECTION 5 BEGINS HERE--------------------------------------------------------------------------------------------------*/
+
+.sect_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    margin: 0;
+    height: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: rgba(255, 255, 255, 0.800);
+    text-align: center;
+    font-weight: 900;
+}
